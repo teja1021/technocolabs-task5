@@ -1,0 +1,148 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #FBEAEB;
+    color: #2F3C7E;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .description {
+    font-size: 1.2em;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+header #cook-time {
+    font-weight: bold;
+    color: #FBEAEB;
+    margin-top: 10px;
+}
+
+.ingredients-section {
+    margin-top: 30px;
+}
+
+.ingredients-section h2 {
+    font-size: 2em;
+    color: #2F3C7E;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.ingredients-container {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FBEAEB;
+    color: #2F3C7E;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ingredients li:hover {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    transform: scale(1.05);
+}
+
+.preparation-section {
+    margin-top: 30px;
+}
+
+.preparation-section h2 {
+    font-size: 2em;
+    color: #2F3C7E;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+ol li {
+    font-size: 1.2em;
+    margin: 15px 0;
+    line-height: 1.6;
+    background-color: #FBEAEB;
+    color: #2F3C7E;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+ol li:hover {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+}
+
+p.time {
+    color: #2F3C7E;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.citation {
+    font-size: 1em;
+    color: #2F3C7E;
+}
+
+.external-link {
+    color: #2F3C7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.external-link:hover {
+    color: #FBEAEB;
+    text-decoration: underline;
+}
